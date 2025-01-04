@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- FONTS -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <section class="section">
+                <div class="menu__container">
+                    <div class="logo">
+                        <a href="">
+                            <img src="assets/image/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search">
+                        <form method="get" action="/search">
+                            <button type="submit">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M21 21L16.65 16.65" stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                            <input type="search" name="search-text" placeholder="Search..." />
+                        </form>
+                    </div>
+                    <nav>
+                        <div class="menu__row">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Blog</a></li>
+                        </div>
+                    </nav>
+                    <nav>
+                        <div class="menu__icons">
+                            <li>
+                                <a href=""><svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg width="27" height="24" viewBox="0 0 27 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 1H5L8 18H24M8 12.6667H23.59C23.7056 12.6667 23.8177 12.6267 23.9072 12.5535C23.9966 12.4802 24.0579 12.3782 24.0806 12.2648L25.8806 3.26479C25.8951 3.19222 25.8934 3.11733 25.8755 3.04552C25.8575 2.97372 25.8239 2.90679 25.7769 2.84956C25.73 2.79234 25.6709 2.74625 25.604 2.71462C25.5371 2.68299 25.464 2.66662 25.39 2.66667H6M10 22C10 22.5523 9.55228 23 9 23C8.44772 23 8 22.5523 8 22C8 21.4477 8.44772 21 9 21C9.55228 21 10 21.4477 10 22ZM24 22C24 22.5523 23.5523 23 23 23C22.4477 23 22 22.5523 22 22C22 21.4477 22.4477 21 23 21C23.5523 21 24 21.4477 24 22Z"
+                                            stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg width="19" height="24" viewBox="0 0 19 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18 23V20.3333C18 18.9188 17.5224 17.5623 16.6722 16.5621C15.8221 15.5619 14.669 15 13.4667 15H5.53333C4.33102 15 3.17795 15.5619 2.32778 16.5621C1.47762 17.5623 1 18.9188 1 20.3333V23M15 5.5C15 7.98528 12.9853 10 10.5 10C8.01472 10 6 7.98528 6 5.5C6 3.01472 8.01472 1 10.5 1C12.9853 1 15 3.01472 15 5.5Z"
+                                            stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header>
+        <main class="main">
+            <div class="banner__container">
+
+                <section class="section">
+                    <div class="banner__block">
+                        <h3 class="banner__subtitle">Pro.Beyond.</h3>
+                        <h1 class="banner__title">IPhone 14 <span>Pro</span></h1>
+                        <p>Created to change everything for the better. For everyone</p>
+                        <button><a href="">Shop Now</a></button>
+                    </div>
+                    <img src="assets/image/iphone.png" alt="">
+                </section>
+
+            </div>
+
+            <div class="category__container">
+                <section class="section">
+                    <h2>Browse By Category</h2>
+                    <ul class="category__row">
+                        <li>
+                            <img src="assets/image/category/Phones.svg" alt="">
+                            <a href="">Phones</a>
+                        </li>
+                        <li>
+                            <img src="assets/image/category/Smart Watches.svg" alt="">
+                            <a href="">Smart Watches</a>
+                        </li>
+                        <li>
+                            <img src="assets/image/category/Cameras.svg" alt="">
+                            <a href="">Cameras</a>
+                        </li>
+                        <li>
+                            <img src="assets/image/category/Headphones.svg" alt="">
+                            <a href="">Headphones</a>
+                        </li>
+                        <li>
+                            <img src="assets/image/category/Computers.svg" alt="">
+                            <a href="">Computers</a>
+                        </li>
+                        <li>
+                            <img src="assets/image/category/Gaming.svg" alt="">
+                            <a href="">Gaming</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+
+            <div class="card__container">
+                <section class="section">
+                    <h2>New Arrival</h2>
+                    <div class="card__row">
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+            <div class="popular__container">
+
+                <div class="popular__row">
+                    <div style="background: #fff;" class="popular__block block-1">
+                        <img src="assets/image/popular/Group 1.png" alt="">
+                        <h2>Popular Products</h2>
+                        <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking
+                            and ease of use.</p>
+                        <button><a href="">Shop Now</a></button>
+                    </div>
+                    <div style="background: #F9F9F9;" class="popular__block block-2">
+                        <img src="assets/image/popular/image 41.png" alt="">
+                        <h2>Ipad Pro</h2>
+                        <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking
+                            and ease of use.</p>
+                        <button><a href="">Shop Now</a></button>
+                    </div>
+                    <div style="background: #EAEAEA;" class="popular__block block-3">
+                        <img src="assets/image/popular/image 64.png" alt="">
+                        <h2>Samsung Galaxy </h2>
+                        <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking
+                            and ease of use.</p>
+                        <button><a href="">Shop Now</a></button>
+                    </div>
+                    <div style="background: #2C2C2C;" class="popular__block block-4">
+                        <img src="assets/image/popular/Macbook 1.png" alt="">
+                        <h2>Macbook Pro</h2>
+                        <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking
+                            and ease of use.</p>
+                        <button><a href="">Shop Now</a></button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card__container">
+                <section class="section">
+                    <h2>Discounts up to -50%</h2>
+                    <div class="card__row">
+
+
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__icon">
+                                <a href="">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card__image">
+                                <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                <div class="card__price">
+                                    <span class="old-price">$50.00</span>
+                                    <!-- <span class="new-price">$35.00</span> -->
+                                </div>
+                                <button class="card__button"><a href="">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+            <div class="advertising__container">
+                <img src="assets/image/adversiting.jpg" alt="">
+                <h1>Big Summer Sale</h1>
+                <p>Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
+                <button><a href="">Shop Now</a></button>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <section class="section">
+                <div class="footer__container">
+                    <div class="footer__block">
+                        <div class="footer__logo">
+                            <img src="assets/image/Logo.png" alt="">
+                        </div>
+                        <div class="footer__subtitle">We are a residential interior design firm located in Portland. Our
+                            boutique-studio offers more than</div>
+                        <div class="footer__socials">
+                            <a href=""><img src="assets/image/footer-logo/Facebook.svg" alt=""></a>
+                            <a href=""><img src="assets/image/footer-logo/Instagram.svg" alt=""></a>
+                            <a href=""><img src="assets/image/footer-logo/Tiktok.svg" alt=""></a>
+                            <a href=""><img src="assets/image/footer-logo/Twitter.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="footer__block">
+                        <div class="footer__heading">Services</div>
+                        <ul class="footer__menu">
+                            <li><a href="#">Bonus program</a></li>
+                            <li><a href="#">Gift cards</a></li>
+                            <li><a href="#">Credit and payment</a></li>
+                            <li><a href="#">Service contracts</a></li>
+                            <li><a href="#">Non-cash account</a></li>
+                            <li><a href="#">Payment</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <div class="footer__heading">Assistance to the buyer</div>
+                        <ul class="footer__menu">
+                            <li><a href="#">Find an order</a></li>
+                            <li><a href="#">Terms of delivery</a></li>
+                            <li><a href="#">Exchange and return of goods</a></li>
+                            <li><a href="#">Guarantee</a></li>
+                            <li><a href="#">Frequently asked questions</a></li>
+                            <li><a href="#">Terms of use of the site</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+    </div>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Helper function to create IntersectionObserver
+        const createObserver = (elements, callback, options = { threshold: 0.1 }) => {
+            const observer = new IntersectionObserver(callback, options);
+            elements.forEach(element => observer.observe(element));
+        };
+
+        // Header animation
+        document.querySelector('.header').classList.add('visible');
+
+        // Category row animation with delay for each item
+        const categoryRow = document.querySelector('.category__row');
+        const categoryItems = document.querySelectorAll('.category__row li');
+        createObserver([categoryRow], (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    categoryItems.forEach((item, index) => {
+                        item.style.opacity = '1';
+                        item.style.transform = 'translateY(0)';
+                        item.style.transitionDelay = `${index * 0.2}s`;
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        // Card visibility animation
+        const cards = document.querySelectorAll('.card');
+        createObserver(cards, entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.5 });
+
+        // Popular block visibility animation
+        const blocks = document.querySelectorAll('.popular__block');
+        createObserver(blocks, (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target); // Stop observing after it becomes visible
+                }
+            });
+        }, { threshold: 0.5 });
+
+        // Advertising container visibility
+        const advertisingContainer = document.querySelector('.advertising__container');
+        createObserver([advertisingContainer], ([entry]) => {
+            if (entry.isIntersecting) {
+                advertisingContainer.classList.add('visible');
+            }
+        });
+    });
+</script>
+
+
+</html>
