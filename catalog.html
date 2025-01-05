@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/catalog.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- FONTS -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <section class="section">
+                <div class="menu__container">
+                    <div class="logo">
+                        <a href="">
+                            <img src="assets/image/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search">
+                        <form method="get" action="/search">
+                            <button type="submit">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M21 21L16.65 16.65" stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                            <input type="search" name="search-text" placeholder="Search..." />
+                        </form>
+                    </div>
+                    <nav>
+                        <div class="menu__row">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Blog</a></li>
+                        </div>
+                    </nav>
+                    <nav>
+                        <div class="menu__icons">
+                            <li>
+                                <a href=""><svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                            stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg width="27" height="24" viewBox="0 0 27 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 1H5L8 18H24M8 12.6667H23.59C23.7056 12.6667 23.8177 12.6267 23.9072 12.5535C23.9966 12.4802 24.0579 12.3782 24.0806 12.2648L25.8806 3.26479C25.8951 3.19222 25.8934 3.11733 25.8755 3.04552C25.8575 2.97372 25.8239 2.90679 25.7769 2.84956C25.73 2.79234 25.6709 2.74625 25.604 2.71462C25.5371 2.68299 25.464 2.66662 25.39 2.66667H6M10 22C10 22.5523 9.55228 23 9 23C8.44772 23 8 22.5523 8 22C8 21.4477 8.44772 21 9 21C9.55228 21 10 21.4477 10 22ZM24 22C24 22.5523 23.5523 23 23 23C22.4477 23 22 22.5523 22 22C22 21.4477 22.4477 21 23 21C23.5523 21 24 21.4477 24 22Z"
+                                            stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg width="19" height="24" viewBox="0 0 19 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18 23V20.3333C18 18.9188 17.5224 17.5623 16.6722 16.5621C15.8221 15.5619 14.669 15 13.4667 15H5.53333C4.33102 15 3.17795 15.5619 2.32778 16.5621C1.47762 17.5623 1 18.9188 1 20.3333V23M15 5.5C15 7.98528 12.9853 10 10.5 10C8.01472 10 6 7.98528 6 5.5C6 3.01472 8.01472 1 10.5 1C12.9853 1 15 3.01472 15 5.5Z"
+                                            stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header>
+
+        <section class="section">
+            <nav class="breadcrumbs">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <img src="assets/image/breadcrumbs.svg" alt="">
+                    </li>
+                    <li>
+                        <a href="#">Category</a>
+                        <img src="assets/image/breadcrumbs.svg" alt="">
+                    </li>
+                    <li>
+                        <span>Product</span>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+
+
+        <main class="main">
+
+            <section class="section">
+
+                <div class="catalog__row">
+
+                    <aside class="filter__container">
+                        <!-- Бренды -->
+                        <section class="filter-section">
+                            <h3 class="filter-header">Brand</h3>
+                            <div class="filter-content">
+                                <div class="filter-item">
+                                    <input type="checkbox" id="brand1" name="brand" value="brand1">
+                                    <label for="brand1">Бренд 1 <span>(15)</span></label>
+                                </div>
+                                <div class="filter-item">
+                                    <input type="checkbox" id="brand2" name="brand" value="brand2">
+                                    <label for="brand2">Бренд 2 <span>(30)</span></label>
+                                </div>
+                                <div class="filter-item">
+                                    <input type="checkbox" id="brand3" name="brand" value="brand3">
+                                    <label for="brand3">Бренд 3 <span>(8)</span></label>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Цвет -->
+                        <section class="filter-section">
+                            <h3 class="filter-header">Battery capacity</h3>
+                            <div class="filter-content">
+                                <div class="filter-item">
+                                    <input type="checkbox" id="color1" name="color" value="red">
+                                    <label for="color1">Красный <span>(12)</span></label>
+                                </div>
+                                <div class="filter-item">
+                                    <input type="checkbox" id="color2" name="color" value="blue">
+                                    <label for="color2">Синий <span>(25)</span></label>
+                                </div>
+                                <div class="filter-item">
+                                    <input type="checkbox" id="color3" name="color" value="green">
+                                    <label for="color3">Зеленый <span>(5)</span></label>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Цена -->
+                        <section class="filter-section">
+                            <h3 class="filter-header">Screen type</h3>
+                            <div class="filter-content">
+                                <div class="filter-item">
+                                    <input type="checkbox" id="price1" name="price" value="low">
+                                    <label for="price1">До 1000 руб. <span>(50)</span></label>
+                                </div>
+                                <div class="filter-item">
+                                    <input type="checkbox" id="price2" name="price" value="medium">
+                                    <label for="price2">1000 - 5000 руб. <span>(40)</span></label>
+                                </div>
+                                <div class="filter-item">
+                                    <input type="checkbox" id="price3" name="price" value="high">
+                                    <label for="price3">Больше 5000 руб. <span>(10)</span></label>
+                                </div>
+                            </div>
+                        </section>
+                    </aside>
+
+
+
+                    <div class="catalog__container">
+                        <div class="sort__container">
+                            <div class="count__products">Selected Products:<span>85</span></div>
+
+                            <div class="sort">
+                                <form>
+                                    <div class="select">
+                                        <div class="select-title">Choose</div>
+                                        <ul class="select-options">
+                                            <li data-value="0" class="select-option">By rating</li>
+                                            <li data-value="1" class="select-option">By price</li>
+                                            <li data-value="2" class="select-option disabled">Опция 2 (недоступно)</li>
+                                            <li data-value="3" class="select-option">By popular</li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <div class="card__row">
+
+                            <div class="card">
+                                <div class="card__icon">
+                                    <a href="">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                                stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="card__image">
+                                    <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                    <div class="card__price">
+                                        <span class="old-price">$50.00</span>
+                                        <!-- <span class="new-price">$35.00</span> -->
+                                    </div>
+                                    <button class="card__button"><a href="">Buy Now</a></button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card__icon">
+                                    <a href="">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                                stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="card__image">
+                                    <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                    <div class="card__price">
+                                        <span class="old-price">$50.00</span>
+                                        <!-- <span class="new-price">$35.00</span> -->
+                                    </div>
+                                    <button class="card__button"><a href="">Buy Now</a></button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card__icon">
+                                    <a href="">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                                stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="card__image">
+                                    <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                    <div class="card__price">
+                                        <span class="old-price">$50.00</span>
+                                        <!-- <span class="new-price">$35.00</span> -->
+                                    </div>
+                                    <button class="card__button"><a href="">Buy Now</a></button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card__icon">
+                                    <a href="">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                                stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="card__image">
+                                    <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                    <div class="card__price">
+                                        <span class="old-price">$50.00</span>
+                                        <!-- <span class="new-price">$35.00</span> -->
+                                    </div>
+                                    <button class="card__button"><a href="">Buy Now</a></button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card__icon">
+                                    <a href="">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                                stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="card__image">
+                                    <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                    <div class="card__price">
+                                        <span class="old-price">$50.00</span>
+                                        <!-- <span class="new-price">$35.00</span> -->
+                                    </div>
+                                    <button class="card__button"><a href="">Buy Now</a></button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card__icon">
+                                    <a href="">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+                                                stroke="#909090" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="card__image">
+                                    <img src="assets/image/catalog/Iphone 14 pro.png" alt="Product Image">
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                                    <div class="card__price">
+                                        <span class="old-price">$50.00</span>
+                                        <!-- <span class="new-price">$35.00</span> -->
+                                    </div>
+                                    <button class="card__button"><a href="">Buy Now</a></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+        </main>
+
+        <footer class="footer">
+            <section class="section">
+                <div class="footer__container">
+                    <div class="footer__block">
+                        <div class="footer__logo">
+                            <img src="assets/image/Logo.png" alt="">
+                        </div>
+                        <div class="footer__subtitle">We are a residential interior design firm located in Portland. Our
+                            boutique-studio offers more than</div>
+                        <div class="footer__socials">
+                            <a href=""><img src="assets/image/footer-logo/Facebook.svg" alt=""></a>
+                            <a href=""><img src="assets/image/footer-logo/Instagram.svg" alt=""></a>
+                            <a href=""><img src="assets/image/footer-logo/Tiktok.svg" alt=""></a>
+                            <a href=""><img src="assets/image/footer-logo/Twitter.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="footer__block">
+                        <div class="footer__heading">Services</div>
+                        <ul class="footer__menu">
+                            <li><a href="#">Bonus program</a></li>
+                            <li><a href="#">Gift cards</a></li>
+                            <li><a href="#">Credit and payment</a></li>
+                            <li><a href="#">Service contracts</a></li>
+                            <li><a href="#">Non-cash account</a></li>
+                            <li><a href="#">Payment</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <div class="footer__heading">Assistance to the buyer</div>
+                        <ul class="footer__menu">
+                            <li><a href="#">Find an order</a></li>
+                            <li><a href="#">Terms of delivery</a></li>
+                            <li><a href="#">Exchange and return of goods</a></li>
+                            <li><a href="#">Guarantee</a></li>
+                            <li><a href="#">Frequently asked questions</a></li>
+                            <li><a href="#">Terms of use of the site</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+    </div>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Появление заголовка
+        window.onload = () => {
+            document.querySelector('.header').classList.add('visible');
+        };
+
+        // Анимация появления категорий
+        const categoryRow = document.querySelector('.category__row');
+        const categoryItems = document.querySelectorAll('.category__row li');
+
+        if (categoryRow) {
+            const categoryObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        categoryItems.forEach((item, index) => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'translateY(0)';
+                            item.style.transitionDelay = `${index * 0.2}s`;
+                        });
+                        categoryObserver.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            categoryObserver.observe(categoryRow);
+        }
+
+        // Анимация корзины
+        const cartItems = document.querySelectorAll('.cart__block ul li');
+        const summaryBlock = document.querySelector('.summary__block');
+        const submitButton = document.querySelector('.submit');
+
+        if (cartItems.length > 0 && summaryBlock && submitButton) {
+            cartItems.forEach((item, index) => {
+                setTimeout(() => {
+                    item.classList.add('show');
+                }, index * 100);
+            });
+
+            summaryBlock.classList.add('show');
+            submitButton.classList.add('show');
+        }
+
+        // Аккордеон для фильтров
+        const filterHeaders = document.querySelectorAll('.filter-header');
+
+        filterHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const isVisible = content.classList.contains('show');
+
+                // Скрыть все другие фильтры
+                document.querySelectorAll('.filter-content').forEach(item => {
+                    item.classList.remove('show');
+                });
+
+                // Показать/скрыть текущий фильтр
+                if (!isVisible) {
+                    content.classList.add('show');
+                }
+            });
+        });
+    });
+
+
+</script>
+
+<script src="assets/js/catalog-sort.js"></script>
+
+</html>
